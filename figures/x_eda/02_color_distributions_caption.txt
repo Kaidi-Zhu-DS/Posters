@@ -1,0 +1,1 @@
+Development posters only. Red coverage uses the fixed HSV rule: hue within 15 degrees of red, S >= 0.40 and V >= 0.15. Lightness is calculated in CIELAB under D65. The measures describe full digital images and may be affected by scanning and preservation.

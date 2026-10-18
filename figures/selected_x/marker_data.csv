@@ -1,0 +1,7 @@
+feature,label,percent,n_valid
+publisher_party_name_marker,Publisher: party wording,0.023413720440177945,4271
+publisher_education_name_marker,Publisher: education wording,0.842893935846406,4271
+designer_collective_name_marker,Designer: collective wording,1.6771488469601679,3816
+publisher_military_name_marker,Publisher: military wording,1.7326153125731678,4271
+designer_org_name_marker,Designer: organization wording,13.364779874213836,3816
+publisher_press_name_marker,Publisher: press wording,87.56731444626551,4271

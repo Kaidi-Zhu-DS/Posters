@@ -1,0 +1,14 @@
+name: posters-preprocessing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+      - pandas==3.0.3
+      - numpy==2.4.6
+      - matplotlib==3.11.0
+      - scikit-image==0.26.0
+      - Pillow==12.3.0
+      - lxml==6.1.3
+      - jupyterlab==4.5.9

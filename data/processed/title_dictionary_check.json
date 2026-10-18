@@ -1,0 +1,8 @@
+{
+  "eligible_posters": 4752,
+  "titles_with_chinese": 4689,
+  "matched_titles": 0,
+  "decision": "Exclude dictionary-derived threat features",
+  "reason": "No matches in available Chinese titles; the dictionary provides no observed threat-score variation.",
+  "scope": "Website Chinese titles, not complete poster text"
+}

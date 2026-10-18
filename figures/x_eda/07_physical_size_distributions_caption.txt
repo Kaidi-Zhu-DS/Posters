@@ -1,0 +1,1 @@
+Development-period posters with successfully parsed dimensions. Area is displayed on a logarithmic axis. Aspect ratio is the longer side divided by the shorter side; orientation is not measured.

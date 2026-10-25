@@ -85,7 +85,7 @@ These indicators exhibit temporal variation, but their predictive usefulness rem
 
 ### Additional Figures
 
-- [Correlation matrix of selected features](../figures/training_eda/A1_selected_feature_correlations.png)
+- [Correlation matrix of selected features](../figures/training_eda/A1_selected_feature_correlation_matrix.png)
 - [Feature redundancy comparison](../figures/training_eda/04_feature_redundancy.png)
 
 ### Code and Reproducibility

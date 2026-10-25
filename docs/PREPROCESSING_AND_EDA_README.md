@@ -92,7 +92,7 @@ These indicators exhibit temporal variation, but their predictive usefulness rem
 
 The EDA notebook is available at:
 
-[`src/notebooks/training_eda.ipynb`](src/notebooks/training_eda.ipynb)
+[`src/notebooks/training_eda.ipynb`](../src/notebooks/training_eda.ipynb)
 
 The analysis uses:
 

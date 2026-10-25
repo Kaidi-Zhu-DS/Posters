@@ -1,0 +1,7 @@
+﻿feature,label,matched_share,n_valid,n_missing
+publisher_party_name_marker,Publisher: party wording,0.00023413720440177945,4271,150
+publisher_education_name_marker,Publisher: education wording,0.00842893935846406,4271,150
+designer_collective_name_marker,Designer: collective wording,0.016771488469601678,3816,605
+publisher_military_name_marker,Publisher: military wording,0.01732615312573168,4271,150
+designer_org_name_marker,Designer: organization wording,0.13364779874213836,3816,605
+publisher_press_name_marker,Publisher: press wording,0.8756731444626551,4271,150

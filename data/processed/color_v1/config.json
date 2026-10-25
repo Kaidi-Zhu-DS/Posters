@@ -1,0 +1,10 @@
+{
+  "version": "color_v1",
+  "hue_half_width_degrees": 15,
+  "saturation_min": 0.4,
+  "value_min": 0.15,
+  "region": "full_image",
+  "image_selection": "first_display_image",
+  "lightness": "CIELAB L*, D65, 2-degree observer",
+  "function_sha256": "33c5875ac5b96ed8b338d4eb5be002a4ac26facaf4cc993be86aa8d6d10ec4df"
+}

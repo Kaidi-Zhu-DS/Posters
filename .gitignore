@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local download caches and unused diplomacy exploration
+/anaconda_projects/
+/data/raw/posters_learning/images/
+/data/raw/posters_learning/raw_html/
+/data/raw/posters_learning/records/
+/data/processed/color_v1/records/
+/data/raw/diplomacy/
+/data/interim/diplomacy/
+/data/processed/diplomacy/
+/Diplomacy_data.ipynb

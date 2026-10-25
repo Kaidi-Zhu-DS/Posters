@@ -1,0 +1,1 @@
+Development years only. The line shows the median poster-level red coverage; shading shows the 25th–75th percentiles, not a confidence interval. Each catalogue record receives equal weight within its year. Annual sample counts should be read alongside Figure 1.

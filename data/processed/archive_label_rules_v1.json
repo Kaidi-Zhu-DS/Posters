@@ -1,0 +1,44 @@
+{
+  "version": "archive_rules_v1",
+  "matching": "normalized exact label matching",
+  "scope": "retrospective website metadata",
+  "theme_rules": {
+    "archive_theme_military": [
+      "people's liberation army",
+      "people's militia"
+    ]
+  },
+  "tag_rules": {
+    "archive_tag_military_personnel": [
+      "people's liberation army",
+      "soldier",
+      "解放军"
+    ],
+    "archive_tag_rifle": [
+      "rifle"
+    ],
+    "archive_tag_worker": [
+      "worker"
+    ],
+    "archive_tag_peasant": [
+      "peasant"
+    ],
+    "archive_tag_female": [
+      "girl",
+      "woman"
+    ],
+    "archive_tag_child": [
+      "child"
+    ],
+    "archive_tag_agriculture": [
+      "agriculture"
+    ],
+    "archive_tag_mao": [
+      "mao zedong",
+      "毛泽东"
+    ],
+    "archive_tag_red_flag": [
+      "red flag"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "target_name": "y_active_mid_count",
+  "task": "count regression",
+  "unit_of_analysis": "calendar year",
+  "definition": "Number of distinct parent MID dispute IDs involving China that are active in each year.",
+  "source": "Dyadic MID 4.03",
+  "china_country_code": 710,
+  "filter": "statea == 710",
+  "year_start": 1950,
+  "year_end": 2014,
+  "aggregation": "Number of unique disno values per year",
+  "zero_definition": "No qualifying dispute records in a covered year.",
+  "planned_prediction": "Poster features in year t predict Y in year t+1",
+  "limitations": [
+    "Measures dispute participation, not necessarily initiation.",
+    "Does not measure war counts or military severity.",
+    "A continuing dispute contributes to each active year.",
+    "Years outside source coverage must not be filled with zero."
+  ]
+}

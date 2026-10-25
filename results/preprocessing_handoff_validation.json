@@ -1,0 +1,18 @@
+{
+  "poster_rows": 4752,
+  "annual_rows": 65,
+  "development_poster_rows": 4421,
+  "split_counts": {
+    "development": 51,
+    "test": 13,
+    "embargo": 1
+  },
+  "annual_means_and_denominators_verified": true,
+  "target_matching": "65/65 one-to-one",
+  "files": {
+    "data\\processed\\poster_x_features_v1.csv": "2a046d6ed1788852736d50a24b4dfc864b3e66b7c6da71105cf49ffa160815fb",
+    "data\\processed\\annual_x_features_v1.csv": "45fac6a03f57101c65a1316d031d4e2fabe79c8f5792a797880d0f8d33fe77d6",
+    "data\\processed\\military\\annual_military_target.csv": "017a134db72a1364ba60aee408d398fde827d9dcf6ae468572bb274a73ba6aff",
+    "data\\processed\\training_handoff\\annual_model_table.csv": "8f04f8190e1ebb356dd084e3aee0e9b939fcdfd65d8ea4ef0e7f3db1893b66cc"
+  }
+}

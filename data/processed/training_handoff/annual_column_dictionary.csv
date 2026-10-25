@@ -1,0 +1,126 @@
+column,meaning,feature_sets
+poster_year,Year of poster production used for X.,
+target_year,Outcome year: poster_year + 1.,
+n_posters,Retained archive catalogue records in this poster year.,
+red_ratio_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+red_ratio_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+red_ratio_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+r_mean_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+r_mean_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+r_mean_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+g_mean_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+g_mean_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+g_mean_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+b_mean_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+b_mean_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+b_mean_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+saturation_mean_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+saturation_mean_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+saturation_mean_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+lightness_mean_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+lightness_mean_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+lightness_mean_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+lightness_std_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+lightness_std_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+lightness_std_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+lightness_p90_p10_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+lightness_p90_p10_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+lightness_p90_p10_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+size_short_cm_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+size_short_cm_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+size_short_cm_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+size_long_cm_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+size_long_cm_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+size_long_cm_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+size_area_cm2_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+size_area_cm2_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+size_area_cm2_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+size_aspect_ratio_mean,Mean of available poster-level values; binary features become shares among known records.,visual_baseline;visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+size_aspect_ratio_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+size_aspect_ratio_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+title_has_chinese_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+title_has_chinese_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+title_has_chinese_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+title_han_count_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+title_han_count_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+title_han_count_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+designer_has_identified_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+designer_has_identified_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+designer_has_identified_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+multi_designer_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+multi_designer_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+multi_designer_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+publisher_has_name_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_basic_metadata;visual_plus_metadata_rules;retrospective_archive_extension
+publisher_has_name_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+publisher_has_name_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+designer_org_name_marker_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_metadata_rules;retrospective_archive_extension
+designer_org_name_marker_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+designer_org_name_marker_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+designer_collective_name_marker_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_metadata_rules;retrospective_archive_extension
+designer_collective_name_marker_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+designer_collective_name_marker_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+publisher_press_name_marker_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_metadata_rules;retrospective_archive_extension
+publisher_press_name_marker_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+publisher_press_name_marker_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+publisher_party_name_marker_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_metadata_rules;retrospective_archive_extension
+publisher_party_name_marker_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+publisher_party_name_marker_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+publisher_military_name_marker_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_metadata_rules;retrospective_archive_extension
+publisher_military_name_marker_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+publisher_military_name_marker_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+publisher_education_name_marker_mean,Mean of available poster-level values; binary features become shares among known records.,visual_plus_metadata_rules;retrospective_archive_extension
+publisher_education_name_marker_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+publisher_education_name_marker_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_description_present_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_description_present_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_description_present_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_description_char_count_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_description_char_count_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_description_char_count_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_description_english_word_count_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_description_english_word_count_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_description_english_word_count_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_theme_present_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_theme_present_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_theme_present_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_present_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_present_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_present_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_theme_count_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_theme_count_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_theme_count_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_count_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_count_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_count_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_theme_military_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_theme_military_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_theme_military_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_military_personnel_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_military_personnel_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_military_personnel_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_rifle_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_rifle_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_rifle_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_worker_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_worker_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_worker_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_peasant_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_peasant_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_peasant_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_female_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_female_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_female_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_child_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_child_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_child_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_agriculture_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_agriculture_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_agriculture_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_mao_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_mao_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_mao_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+archive_tag_red_flag_mean,Mean of available poster-level values; binary features become shares among known records.,retrospective_archive_extension
+archive_tag_red_flag_n_valid,Number of nonmissing poster-level values used in the annual mean.,
+archive_tag_red_flag_missing_ratio,Fraction of eligible posters with unavailable feature in that year.,
+y_active_mid_count,Distinct parent MID disno values involving China active in target_year.,
+split,Fixed chronological development/embargo/test assignment; never an input feature.,

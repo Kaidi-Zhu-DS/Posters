@@ -1,0 +1,1 @@
+Development years only. Spearman correlations between annual feature means, using pairwise available years with at least 20 paired observations. Constant features are excluded. Correlations do not establish causation.
